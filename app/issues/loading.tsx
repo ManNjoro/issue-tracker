@@ -4,7 +4,7 @@ import "react-loading-skeleton/dist/skeleton.css";
 import IssueActions from "./IssueActions";
 
 const LoadingIssuesPage = () => {
-  const issues = [...Array(5)];
+  const issues = [1,2,3,4,5];
   return (
     <div>
       <IssueActions />
