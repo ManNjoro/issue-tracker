@@ -6,7 +6,8 @@ import "./globals.css";
 import NavBar from "./NavBar";
 import "./theme-config.css";
 import AuthProvider from "./auth/Provider";
-import { QueryClientProvider } from "@tanstack/react-query";
+import QueryClientProvider from "./QueryClientProvider";
+
 
 const inter = Inter({
   subsets: ["latin"],

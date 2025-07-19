@@ -4,7 +4,7 @@ import { PropsWithChildren } from 'react'
 
 const queryClient = new QueryClient()
 
-const QueryProvider = ({children}: PropsWithChildren) => {
+const QueryClientProvider = ({children}: PropsWithChildren) => {
   return (
     <ReactQueryClientProvider client={queryClient}>
         {children}
@@ -12,4 +12,4 @@ const QueryProvider = ({children}: PropsWithChildren) => {
   )
 }
 
-export default QueryProvider
+export default QueryClientProvider
